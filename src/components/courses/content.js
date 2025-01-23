@@ -32,7 +32,7 @@ export default function content() {
                             </p>
                         </div>
                         <h5 className="mb-3 text-3xl font-extrabold leading-none sm:text-4xl">
-                            Your new ideal style
+                            Your new ideal 
                         </h5>
                         <p className="mb-5 text-gray-800">
                             <span className="font-bold">Lorem ipsum</span> dolor sit amet,
