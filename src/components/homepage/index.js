@@ -5,6 +5,7 @@ import Features from './features'
 import Content from './content'
 import Steps from './steps'
 import Pricing from './pricing'
+import Teams from './teams'
 import Stats from './stats'
 import Footer from './footer'
 
@@ -15,9 +16,10 @@ export default function index() {
         <Navbar/>
         <Header/>
         <Features/>
-        <Content/>
+        {/* <Content/> */}
         <Steps/>
         <Pricing/>
+        <Teams/>
         <Stats/>
         <Footer/>
     </div>

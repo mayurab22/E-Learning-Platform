@@ -2,19 +2,19 @@ import React from 'react'
 
 export default function pricing() {
     return (
-        <div><div class="relative w-full h-full">
-            <div class="absolute hidden w-full bg-gray-50 lg:block h-96" />
+        <div><div class="mt-10 relative w-full h-full">
+            <div class="absolute hidden w-full bg-gray-50 lg:block h-96 mt-10" />
             <div class="relative px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
                 <div class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
                     <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
                         
                             
-                            <span class="relative">Affordable</span>
+                            <span class="relative">Affordable </span>
                         
                     </h2>
                     <p class="text-base text-gray-700 md:text-lg">
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                        accusantium doloremque rem aperiam, eaque ipsa quae.
+                    Empower your learning journey with our budget-friendly 
+                    pricing options designed to fit all needs and goals.
                     </p>
                 </div>
                 <div class="grid max-w-screen-md gap-10 md:grid-cols-2 sm:mx-auto">
@@ -26,7 +26,7 @@ export default function pricing() {
                                 </p>
                                 <div class="flex items-center justify-center">
                                     <p class="mr-2 text-5xl font-semibold text-white lg:text-6xl">
-                                        $39
+                                        ₹499
                                     </p>
                                     <p class="text-lg text-gray-500">/ month</p>
                                 </div>
@@ -131,7 +131,7 @@ export default function pricing() {
                             </ul>
                             <button
                                 type="submit"
-                                class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-purple-600 hover:bg-purple-500 focus:shadow-outline focus:outline-none"
+                                class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-sky-500 hover:bg-sky-400 focus:shadow-outline focus:outline-none"
                             >
                                 Get Now
                             </button>
@@ -148,7 +148,7 @@ export default function pricing() {
                                 </p>
                                 <div class="flex items-center justify-center">
                                     <p class="mr-2 text-5xl font-semibold text-white lg:text-6xl">
-                                        $59
+                                        ₹999
                                     </p>
                                     <p class="text-lg text-gray-500">/ month</p>
                                 </div>
@@ -253,7 +253,7 @@ export default function pricing() {
                             </ul>
                             <button
                                 type="submit"
-                                class="inline-flex items-center justify-center w-full h-12 px-6 font-semibold tracking-wide text-teal-900 transition duration-200 rounded shadow-md bg-teal-400 hover:bg-teal-300 focus:shadow-outline focus:outline-none"
+                                class="inline-flex items-center justify-center w-full h-12 px-6 font-semibold tracking-wide text-white transition duration-200 rounded shadow-md bg-teal-400 hover:bg-teal-300 focus:shadow-outline focus:outline-none"
                             >
                                 Get Now
                             </button>
