@@ -1,39 +1,70 @@
 import React from 'react'
+import webimg from '../../images/web-development.png'
 
 export default function content() {
-  return (
-    <div><section class="bg-white dark:bg-gray-900">
-    <div class="container px-6 py-10 mx-auto">
-        <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">From the blog</h1>
-
-        <div class="mt-8 lg:-mx-6 lg:flex lg:items-center">
-            <img class="object-cover w-full lg:mx-6 lg:w-1/2 rounded-xl h-72 lg:h-96" src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"alt=""/>
-
-            <div class="mt-6 lg:w-1/2 lg:mt-0 lg:mx-6 ">
-                <p class="text-sm text-blue-500 uppercase">category</p>
-
-                <a href="#" class="block mt-4 text-2xl font-semibold text-gray-800 hover:underline dark:text-white">
-                    All the features you want to know
-                </a>
-
-                <p class="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure veritatis sint autem nesciunt,
-                    laudantium quia tempore delect
-                </p>
-
-                <a href="#" class="inline-block mt-2 text-blue-500 underline hover:text-blue-400">Read more</a>
-
-                <div class="flex items-center mt-6">
-                    <img class="object-cover object-center w-10 h-10 rounded-full" src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt=""/>
-
-                    <div class="mx-4">
-                        <h1 class="text-sm text-gray-700 dark:text-gray-200">Amelia. Anderson</h1>
-                        <p class="text-sm text-gray-500 dark:text-gray-400">Lead Developer</p>
+    return (
+        <div>
+            <div className="mt-8 max-w-xl mb-8 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+            <span className="relative text-6xl font-medium">Explore top Courses</span>
+            <hr className=' mt-8 border h-2 w-24 mx-auto bg-gray-800'>
+          </hr>
+          </div>
+            <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+                <div className="flex flex-col max-w-screen-lg overflow-hidden bg-white border rounded shadow-sm lg:flex-row sm:mx-auto">
+                    <div className="relative lg:w-1/2">
+                        <img
+                            src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+                            alt=""
+                            className="object-cover w-full lg:absolute h-80 lg:h-full"
+                        />
+                        <svg
+                            className="absolute top-0 right-0 hidden h-full text-white lg:inline-block"
+                            viewBox="0 0 20 104"
+                            fill="currentColor"
+                        >
+                            <polygon points="17.3036738 5.68434189e-14 20 5.68434189e-14 20 104 0.824555778 104" />
+                        </svg>
+                    </div>
+                    <div className="flex flex-col justify-center p-8 bg-white lg:p-16 lg:pl-10 lg:w-1/2">
+                        <div>
+                            <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
+                                Brand new
+                            </p>
+                        </div>
+                        <h5 className="mb-3 text-3xl font-extrabold leading-none sm:text-4xl">
+                            Your new ideal style
+                        </h5>
+                        <p className="mb-5 text-gray-800">
+                            <span className="font-bold">Lorem ipsum</span> dolor sit amet,
+                            consectetur adipiscing elit. Etiam sem neque, molestie sit amet
+                            venenatis et, dignissim ut erat. Sed aliquet velit id dui eleifend,
+                            sed consequat odio sollicitudin.
+                        </p>
+                        <div className="flex items-center">
+                            <button
+                                type="submit"
+                                className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                            >
+                                Get started
+                            </button>
+                            <a
+                                href="/"
+                                aria-label=""
+                                className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+                            >
+                                Learn More
+                                <svg
+                                    className="inline-block w-3 ml-2"
+                                    fill="currentColor"
+                                    viewBox="0 0 12 12"
+                                >
+                                    <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z" />
+                                </svg>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section></div>
-  )
+    )
 }
