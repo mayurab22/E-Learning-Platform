@@ -1,15 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import webimg from '../../images/5234318.png'
-import javaimg from '../../images/java.png'
-import pythonimg from '../../images/python-1.jpg'
-import reactimg from '../../images/react.png'
+import webimg from '../../images/web1.png'
+import javaimg from '../../images/java1.png'
+import pythonimg from '../../images/python1.jpg'
+import reactimg from '../../images/react1.png'
 
 
 export default function features() {
   return (
-    <div className='scroll-smooth'>
-      <div id="features-section" className="mt-10 px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+    <div className=''>
+      <div id="features-section" className="mt-20 px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="max-w-xl mb-8 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         <div>
           <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
@@ -40,7 +40,7 @@ export default function features() {
                 height="24"
               />
             </svg>
-            <span className="relative text-5xl">Explore top Courses</span>
+            <span className="relative text-5xl">Explore Courses</span>
           </span>{' '}
           <hr className=' mt-8 border h-2 w-24 mx-auto bg-gray-800'>
           </hr>
@@ -61,7 +61,7 @@ export default function features() {
             </div>
 
           </div>
-          <Link to={"/course"}>Learn more</Link>
+          <Link to={'/course'}>Learn more</Link>
         </div>
         <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
           <div className='flex-col'>
@@ -77,7 +77,7 @@ export default function features() {
             </div>
 
           </div>
-          <Link to={"/course"}>Learn more</Link>
+          <Link to={"/Course"}>Learn more</Link>
         </div>
         <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
           <div className='flex-col'>
@@ -93,7 +93,7 @@ export default function features() {
             </div>
 
           </div>
-          <Link to={"/course"}>Learn more</Link>
+          <Link to={"/Course"}>Learn more</Link>
         </div>
         <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
         <div className='flex-col'>
@@ -108,7 +108,7 @@ export default function features() {
           Build modern, dynamic web applications efficiently!
               </p>
             </div>
-            <Link to={"/course"}>Learn more</Link>
+            <Link to={"/Course"}>Learn more</Link>
           </div>
         </div>
       </div>

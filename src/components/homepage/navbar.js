@@ -17,14 +17,14 @@ export default function banner() {
 
           <ul className=' text-white flex space-x-10 text-xl justify-center items-center'>
             <li className='flex'>
-              <Link to={'/'} className=' pb-1 hover:border-b-2 hover:text-sky-400 hover:border-sky-400'>Home</Link>
+              <Link to={'/'} className=' pb-1 hover:border-b-2 hover:text-sky-400 hover:border-sky-400  active:text-sky-400 active:border-sky-400 '>Home</Link>
             </li>
             <li className='flex'>
               <Link to={'/course'} className=' pb-1 hover:border-b-2 hover:text-sky-400 hover:border-sky-400'>Courses</Link>
 
             </li>
             <li className='flex'>
-              <Link to={'/contact'} className=' pb-1 hover:border-b-2 hover:text-sky-400 hover:border-sky-400'>Contact</Link>
+              <Link to={'/contact'} className=' pb-1 hover:border-b-2 hover:text-sky-400 hover:border-sky-400 active:text-sky-400 active:border-sky-400'>Contact</Link>
             </li>
           </ul>
         </div>
