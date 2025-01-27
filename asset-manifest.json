@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/E-Learning-Platform/static/css/main.ed3d5f9c.css",
+    "main.js": "/E-Learning-Platform/static/js/main.20ad3a37.js",
+    "static/media/laptop-dark.jpg": "/E-Learning-Platform/static/media/laptop-dark.c38ae2368f434fd97316.jpg",
+    "static/media/react2.png": "/E-Learning-Platform/static/media/react2.a7a761619644ad9567a2.png",
+    "static/media/java2.png": "/E-Learning-Platform/static/media/java2.d6346edb2e7180db13be.png",
+    "static/media/mayur.jpg": "/E-Learning-Platform/static/media/mayur.530250a1af5bcbd3f327.jpg",
+    "static/media/madhu.jpg": "/E-Learning-Platform/static/media/madhu.ab18050079b489bb0ab7.jpg",
+    "static/media/html.png": "/E-Learning-Platform/static/media/html.728aa826494496ba1964.png",
+    "static/media/python2.png": "/E-Learning-Platform/static/media/python2.60542230b2fc05804f30.png",
+    "static/media/contact.png": "/E-Learning-Platform/static/media/contact.f574deb3e88df542ff4f.png",
+    "static/media/explore.png": "/E-Learning-Platform/static/media/explore.9664b396edec949b10a9.png",
+    "static/media/java1.png": "/E-Learning-Platform/static/media/java1.1057c0831b640b43c254.png",
+    "static/media/likith.jpg": "/E-Learning-Platform/static/media/likith.75b9697bdf68cafc05f4.jpg",
+    "static/media/python1.jpg": "/E-Learning-Platform/static/media/python1.2eaf338ce52f3fa2819a.jpg",
+    "static/media/react1.png": "/E-Learning-Platform/static/media/react1.bed70093c4da568f260e.png",
+    "static/media/Asset 3.png": "/E-Learning-Platform/static/media/Asset 3.c4a33137d022f3348ab7.png",
+    "static/media/web1.png": "/E-Learning-Platform/static/media/web1.0c2af78498a0634c2059.png",
+    "index.html": "/E-Learning-Platform/index.html",
+    "main.ed3d5f9c.css.map": "/E-Learning-Platform/static/css/main.ed3d5f9c.css.map",
+    "main.20ad3a37.js.map": "/E-Learning-Platform/static/js/main.20ad3a37.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed3d5f9c.css",
+    "static/js/main.20ad3a37.js"
+  ]
+}
